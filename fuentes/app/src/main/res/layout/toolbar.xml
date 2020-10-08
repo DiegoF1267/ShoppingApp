@@ -3,6 +3,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/toolbar"
+    android:padding="@dimen/pading_toolbar"
     android:background="@color/colorPrimaryDark"
     android:minHeight="?actionBarSize"
     android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
@@ -21,6 +22,7 @@
         </ImageView>
         <TextView
             android:text="SHOPING"
+            android:id="@+id/titulo_toolbar"
             android:textStyle="bold"
             android:layout_gravity="center"
             android:layout_marginLeft="@dimen/titulo_app_size"

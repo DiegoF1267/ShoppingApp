@@ -1,10 +1,13 @@
 package cl.inacap.shoppingapp.dto;
 
-public class Productos {
+import java.io.Serializable;
+
+public class Productos implements Serializable {
     private String nombre;
     private String imagen;
     private String descripcion;
     private int precio;
+
 
     public String getNombre() {
         return nombre;
